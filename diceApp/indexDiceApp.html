@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catan Dice App</title>
+    <script src="indexDice.js"></script>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- full random roll, pool random  -->
+    <table>
+        <tr>
+            <th>Random</th>
+            <th>Semi-Random</th>
+        <tr>
+            <td>
+                <button onclick="normalRole()">
+                    
+                    <h3 id="randomVal">Roll</h3>
+                </button>
+            </td>
+            <td>
+                <button onclick="poolRole()">
+                    <h3 id="poolVal">Roll</h3>
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+        </tr>
+    </table>
+
+    <h1 id="hiddenMessage" style="display:none">Hidden message</h1>
+    <!-- code -->
+</body>
+
+</html>

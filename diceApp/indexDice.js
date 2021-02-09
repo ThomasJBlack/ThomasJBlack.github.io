@@ -1,6 +1,6 @@
 // updated probability array input
 function buildInput() {
-    dice_sides = parseInt(prompt())
+    dice_sides = parseInt(prompt("Dice sides: "))
 
     array = []
     num = num2 = dice_sides

@@ -1,5 +1,24 @@
-var INPUT = [2, 12, 3, 3, 11, 11, 4, 4, 4, 10, 10, 10, 5, 5, 5, 5, 9, 9, 9, 9, 6, 6, 6, 6, 6, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7];
-var roll_pool = [];
+// updated probability array input
+dice_sides = input()
+
+array = []
+num = num2 = dice_sides
+while num > 0:
+    for i in range(num):
+        array.append(num + 1)
+    for i in range(num):
+        if num != num2:
+            array.append(num2 + 1)
+    num2 += 1
+    num -= 1
+    print(array)
+    print(len(array))
+
+
+// var INPUT = [2, 12, 3, 3, 11, 11, 4, 4, 4, 10, 10, 10, 5, 5, 5, 5, 9, 9, 9, 9, 6, 6, 6, 6, 6, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7];
+// end of update
+
+var roll_pool = array;
 
 function poolRole() {
 

@@ -27,7 +27,7 @@ var roll_pool = INPUT;
 
 function poolRole() {
     if (roll_pool.length == 0) {
-        roll_pool = INPUT;
+        roll_pool = INPUT.slice();
     }
     var nVal = Math.floor(Math.random() * roll_pool.length);
     random_value = roll_pool.splice(nVal, 1);

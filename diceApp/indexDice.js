@@ -25,6 +25,7 @@ function buildInput() {
 var INPUT = buildInput();
 
 function poolRole() {
+    var roll_pool = INPUT;
     if (roll_pool.length == 0) {
         roll_pool = INPUT.slice();
     }

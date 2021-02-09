@@ -23,7 +23,7 @@ function buildInput() {
 // end of update
 
 var INPUT = buildInput();
-var roll_pool = INPUT;
+var roll_pool = INPUT.slice();
 
 function poolRole() {
     if (roll_pool.length == 0) {
